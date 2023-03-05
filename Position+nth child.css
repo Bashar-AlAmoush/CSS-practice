@@ -1,0 +1,34 @@
+    span {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px;
+
+    }
+    div{
+        margin: 40px;
+    }
+   .zig span:nth-child(odd){
+    background-color: yellow;
+    bottom: 25px;
+    }
+    span:nth-child(even){
+        background-color: green;
+     }
+     .num{
+        display: inline-block;
+     }
+     .num span{
+        background-color: red;
+        text-align: center;
+        border: 2px solid black;
+        color: aliceblue;
+        width: 70px;
+        height: 30px;
+     }
+     .num span:nth-child(even){
+
+        display:none;
+     }
+     

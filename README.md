@@ -7,6 +7,7 @@
 
 ##### i use table and css property (float):
   1 overflow: hidden;
+  
 2  overflow-x: hidden; 
   3  overflow-y: scroll;
 
