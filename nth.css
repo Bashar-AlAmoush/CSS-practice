@@ -1,0 +1,52 @@
+/* Selects the second element of div siblings */
+body {
+    padding-left: 50px;
+    padding-top: 50px;
+    height: 3000px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+div:nth-child(2) {
+    background: red;
+    color: white;
+   
+  }
+
+
+ul li:nth-child(2) {
+    background: lightgreen;
+  } 
+
+
+ ul li:last-child{ 
+   background: blue;
+  }  
+
+
+ul li:first-child {
+    background-color: aqua;
+
+}
+
+
+/* ol li:nth-child(even) {
+    background-color: chocolate;
+} */
+
+
+ol li:nth-child(odd){
+    background-color:rgb(203, 254, 0);
+
+ }

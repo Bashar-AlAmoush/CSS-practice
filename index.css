@@ -1,0 +1,54 @@
+/*
+  Flexible Box
+  For Parent
+  - display: flex => To Start Flexible Box
+  - flex-direction: row => Default Value
+  - flex-wrap: nowrap => Default Value
+  - flex-flow: [Flex-Direction] + [Flex-Wrap]
+/--------------------/
+  - justify-content: flex-start => Default Value
+  - align-items: flex-start;
+
+*/
+
+
+  
+  .flex {
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    /* flex-direction:row;
+    flex-wrap:wrap-reverse; /
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  
+    / justify-content: flex-start; /
+    / justify-content: flex-start; /
+    / justify-content: center;
+    justify-content: space-between;  /
+  
+  
+  }
+  
+  .Three{
+    height: 100px;
+    / align-items: flex-start; */
+  }
+  
+  /* .Two{
+    height: 150px;
+  } */
+  
+  
+  
+  
+  .flex div {
+    background-color: black;
+    color: white;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+  }
